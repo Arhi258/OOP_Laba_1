@@ -7,7 +7,7 @@ def input_flights():
 
     count = int(input("Введите количество рейсов: "))
 
-    for _ in range(count):
+    for i in range(count):
         destination = input("Введите пункт назначения: ")
         flight_number = input("Введите номер рейса: ")
         plane_type = input("Введите тип самолета: ")
