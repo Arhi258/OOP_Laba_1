@@ -1,3 +1,3 @@
-__all__ = ["closure"]
-
 from .module import closure
+
+__all__ = ["closure"]
